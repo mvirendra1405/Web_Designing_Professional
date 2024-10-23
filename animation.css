@@ -1,0 +1,16 @@
+@keyframes change_text_color{
+    0%{color: green;}
+    25%{color:red;}
+    50%{color: yellow;}
+    75%{color: orange;}
+    100%{color: blue;}
+}
+
+#animation1
+{
+    font-size: 100px;
+    animation-name: change_text_color;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    text-shadow: 3px 5px 5px grey;
+}

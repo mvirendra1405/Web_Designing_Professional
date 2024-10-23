@@ -1,0 +1,30 @@
+#gradient1
+{
+    height: 300px;
+    width: 300px;
+    background: linear-gradient(orange,white,green);
+}
+
+#gradient2
+{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    background: repeating-linear-gradient(to right,red ,yellow 10%,green 20%)
+}
+
+#gradient3
+{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    background: radial-gradient(red,white)
+}
+
+#gradient4
+{
+    margin-top: 50px;
+    height: 300px;
+    width: 300px;
+    background: repeating-radial-gradient(red 20%,white)
+}
